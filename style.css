@@ -1,0 +1,250 @@
+:root {
+  --primary: skyblue;
+  --secondary: blueviolet;
+  --third: black;
+  --shadow: -5px 5px 10px 5px rgba(126, 135, 134, 0.537);
+  --shadow-2: -5px 5px 10px 5px rgba(0, 5, 3, 0.699);
+}
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.btn {
+  background: rgb(236, 144, 5);
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  color: white;
+}
+.btn:hover {
+  cursor: pointer;
+}
+/* global  message  */
+.global {
+  background-color: skyblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.global > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+i {
+  font-size: 30px;
+}
+.icons {
+  display: flex;
+  gap: 30px;
+}
+
+#fb {
+  color: blue;
+}
+/* 
+<!-- header section  --> */
+header {
+  background-color: blueviolet;
+  color: white;
+  padding: 10px 0;
+  font-size: 24px;
+}
+header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.container ul {
+  display: flex;
+  list-style: none;
+  color: black;
+}
+
+header ul li {
+  margin-left: 1rem;
+}
+header ul li:hover {
+  cursor: pointer;
+  background: rgba(12, 230, 139, 0.55);
+  /* transform: scale(1.5); */
+}
+.logo {
+  background-color: white;
+  color: blueviolet;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  border: 3px dotted var(--third);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+/* <!-- hero section  --> */
+
+.hero_section {
+  background: url(./hero.jpg) no-repeat center;
+  background-size: cover;
+  height: 60vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero_contain {
+  width: 450px;
+  background: rgba(0, 0, 0, 0.639);
+  color: white;
+
+  padding: 32px;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero_contain hr {
+  width: 100%;
+}
+
+/* <!-- latest post section  --> */
+
+.latest {
+  background-image: url(bg.jpg);
+  background-size: cover;
+}
+
+.main {
+  display: flex;
+  margin-top: 15px;
+}
+
+.articles {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  flex-direction: column;
+
+  background: rgba(255, 255, 255, 0.689);
+  box-shadow: var(--shadow);
+  border-radius: 10px;
+  margin-bottom: 24px;
+  padding: 20px 16px;
+}
+#article {
+  display: flex;
+  gap: 35px;
+  padding-left: 12px;
+}
+
+.articles .art-img {
+  width: 350px;
+}
+
+.articles .btn {
+  float: inline-end;
+}
+
+/* side article  */
+.side-links {
+  width: 30%;
+}
+.country {
+  background: #58bf5b;
+  padding: 10px;
+  margin: 20px;
+  margin-left: 10%;
+  margin-bottom: 32px;
+  border-radius: 20px;
+  padding-left: 25px;
+  box-shadow: var(--shadow-2);
+}
+.date {
+  background: #e7f04a;
+  padding: 10px;
+  margin: 20px;
+  margin-left: 10%;
+  border-radius: 20px;
+  padding-left: 25px;
+  box-shadow: var(--shadow-2);
+}
+.list ul {
+  display: flex;
+  flex-direction: column;
+  list-style: disc;
+}
+
+/* <!-- recomendation section  --> */
+.card-list {
+  width: 80%;
+  display: flex;
+  gap: 2rem;
+  margin: 20px;
+}
+.card_section {
+  width: 350px;
+  padding-bottom: 32px;
+  flex-grow: 1;
+  box-shadow: var(--shadow-2);
+  border-radius: 15px;
+  border-color: black;
+}
+.card_section img {
+  border-radius: 16px 16px 0 0;
+}
+
+.btn {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  font-size: 18px;
+}
+.card-btn {
+  float: right;
+  width: 100%;
+}
+
+/* <!-- subscribe section  --> */
+.subs {
+  background: #f017abc8;
+  padding: 20px;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subs input {
+  line-height: 42px;
+  padding: 5px 10px;
+  border: 1px solid rgb(215, 219, 209);
+  border-radius: 5px;
+}
+/* <!-- footer section  --> */
+footer {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  text-align: center;
+}
