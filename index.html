@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- fontawesome cdn -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper"></div>
+    <!-- global message -->
+    <section class="global">
+      <div class="container">
+        <span>Welcome</span>
+        <div class="icons">
+          <a
+            href="https://www.facebook.com/people/Lakhe-Nishan/pfbid0b9uFcVcVR5DMdzoU21huo95TxckFDowP3NXWsk4o1omM3Br32DwbcKhjj3ei7wBol/"
+            ><i class="fa-brands fa-square-facebook" style="color: blue"></i>
+          </a>
+
+          <a href="https://www.instagram.com/nishan.theicon/"
+            ><i
+              class="fa-brands fa-square-instagram"
+              style="background-image: linear-gradient(blue, pink, red, yellow)"
+            ></i
+          ></a>
+
+          <a
+            href="https://www.youtube.com/watch?v=Svp2MXZOXpQ&ab_channel=SushantGhimire"
+            ><i class="fa-brands fa-youtube" style="color: red"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- header section  -->
+
+    <header>
+      <div class="container">
+        <div class="logo">LoGo</div>
+        <ul>
+          <li><a href="a.jpg.jpg">Home</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- hero section  -->
+    <!-- <div class="hero_container">
+      <img src="hero.jpg" alt="Hero Banner" />
+      <div class="content"><p>Wellcome to my vlog</p></div>
+    </div> -->
+
+    <section class="hero_section">
+      <div class="hero_contain">
+        <h1>Welcome to my travel blog</h1>
+        <hr />
+        <p>Your one stop your getway Information.</p>
+      </div>
+    </section>
+    <!-- latest post section  -->
+
+    <section class="latest">
+      <div class="container">
+        <h2 style="padding: 10px">Latest Posts</h2>
+        <hr />
+        <main class="main">
+          <div class="articles">
+            <article id="article">
+              <div class="art-img">
+                <img src="./b.jpg" alt="Article Image" width="100%" />
+              </div>
+              <div>
+                <div class="title">
+                  How to travel the world with the less money or expense?
+                </div>
+                <div>
+                  <i class="fa-solid fa-calendar-days"></i>
+                  <small>31-10-2005</small>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Iste eaque optio veniam laudantium rem non ducimus totam
+                    alias commodi nesciunt .....
+                  </p>
+                  <button class="btn">Read more...</button>
+                </div>
+              </div>
+            </article>
+
+            <article id="article">
+              <div class="art-img">
+                <img src="./c.jpg" alt="Article Image" width="100%" />
+              </div>
+              <div>
+                <div class="title">
+                  How to travel the world with the less money or expense?
+                </div>
+                <div>
+                  <i class="fa-solid fa-calendar-days"></i>
+                  <small>31-10-2005</small>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Iste eaque optio veniam laudantium rem non ducimus totam
+                    alias commodi nesciunt .....
+                  </p>
+                  <button class="btn">Read more...</button>
+                </div>
+              </div>
+            </article>
+
+            <article id="article">
+              <div class="art-img">
+                <img src="./d.jpg" alt="Article Image" width="100%" />
+              </div>
+              <div>
+                <div class="title">
+                  How to travel the world with the less money or expense?
+                </div>
+                <div>
+                  <i class="fa-solid fa-calendar-days"></i>
+                  <small>31-10-2005</small>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Iste eaque optio veniam laudantium rem non ducimus totam
+                    alias commodi nesciunt .....
+                  </p>
+                  <button class="btn">Read more...</button>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <aside class="side-links">
+            <div class="country">
+              <div class="head"><h3>Read by country</h3></div>
+              <div class="list">
+                <ul>
+                  <li><a href="#">Austrilia</a></li>
+                  <li><a href="#">USA</a></li>
+                  <li><a href="#">Nepal</a></li>
+                  <li><a href="#">London</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="date">
+              <div class="head"><h3>Read by Date</h3></div>
+              <div class="list">
+                <ul>
+                  <li><a href="#">2024</a></li>
+                  <li><a href="#">2023</a></li>
+                  <li><a href="#">2022</a></li>
+                  <li><a href="#">2021</a></li>
+                </ul>
+              </div>
+            </div>
+          </aside>
+        </main>
+      </div>
+    </section>
+    <!-- recomendation section  -->
+    <section>
+      <div class="container">
+        <h2>Recomendation Section</h2>
+        <hr />
+        <div class="card-list">
+          <div class="card_section">
+            <img src="c.jpg" alt="" width="100%" />
+            <div class="container">
+              <h3>Lorem ipsum dolor ducimus.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                porro?
+              </p>
+              <button class="btn">
+                Explore<i class="fa-solid fa-arrow-right fa-fade"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card_section">
+            <img src="c.jpg" alt="" width="100%" />
+            <div class="container">
+              <h3>Lorem ipsum dolor ducimus.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                porro?
+              </p>
+              <button class="btn">
+                Explore<i class="fa-solid fa-arrow-right fa-fade"></i>
+              </button>
+            </div>
+          </div>
+          <div class="card_section">
+            <img src="c.jpg" alt="" width="100%" />
+            <div class="container">
+              <h3>Lorem ipsum dolor ducimus.</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                porro?
+              </p>
+              <button class="btn">
+                Explore<i
+                  class="fa-solid fa-arrow-right fa-fade"
+                  id="arrow"
+                ></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- subscribe section  -->
+    <section class="subs">
+      <div>
+        <h2>Subscribe to receive the latest articles.</h2>
+        <form action="">
+          <input type="text" placeholder="Your name" />
+          <input type="email" placeholder="Your @email" />
+          <button class="btn">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <!-- footer section  -->
+    <footer>&copy; Copyright Reserved by Nishan.</footer>
+  </body>
+</html>
