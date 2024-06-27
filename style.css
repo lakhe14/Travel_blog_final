@@ -72,6 +72,9 @@ header > div {
   list-style: none;
   color: black;
 }
+.container ul li a {
+  color: black;
+}
 
 header ul li {
   margin-left: 1rem;
@@ -238,11 +241,15 @@ header ul li:hover {
   align-items: center;
 }
 .subs input {
-  line-height: 42px;
-  padding: 5px 10px;
-  border: 1px solid rgb(215, 219, 209);
-  border-radius: 5px;
+  line-height: 45px;
+  padding: 10px 20px;
+  border: 1px solid rgb(4, 6, 0);
+  border-radius: 10px;
 }
+#sub_btn {
+  transform: translate(150%);
+}
+
 /* <!-- footer section  --> */
 footer {
   background-color: black;
@@ -290,3 +297,33 @@ mobile 550px
     flex-direction: column;
   }
 } */
+
+/* ipad view 992px */
+@media (width < 992px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .articles {
+    width: 100%;
+  }
+  .side-links {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+  }
+  .side-links > div {
+    flex-grow: 1;
+  }
+}
+
+/* phone 550px */
+@media (width < 550px) {
+  .article {
+    display: flex;
+    flex-direction: column;
+  }
+  .articles .art-img {
+    width: 100%;
+  }
+}
